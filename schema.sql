@@ -8,3 +8,8 @@ CREATE TABLE animals (
     neutured BOOLEAN DEFAULT FALSE,
     weight_kg DECIMAL(5,2) NOT NULL
 );
+
+/* Day 2 query and update animals table*/
+
+ALTER TABLE animals
+ADD COLUMN species VARCHAR(50);
