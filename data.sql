@@ -22,6 +22,8 @@ VALUES('Blossom', '1998-10-13', 3, true, 17.0, '');
 INSERT INTO animals (name, date_of_birth, escape_attempts, neutured, weight_kg, species)
 VALUES('Ditto', '2022-05-14', 4, true, 22.0, '');
 
+/* Day 3 query multiple tables*/
+
 INSERT INTO owners(full_name, age)
 VALUES
 ('Sam Smith', 34),
