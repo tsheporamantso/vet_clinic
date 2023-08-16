@@ -13,3 +13,11 @@ CREATE TABLE animals (
 
 ALTER TABLE animals
 ADD COLUMN species VARCHAR(50);
+
+/* Day 3 query multiple tables*/
+
+CREATE TABLE owners(
+    id BIGSERIAL PRIMARY KEY,
+    full_name VARCHAR(255),
+    age INTEGER
+); 
