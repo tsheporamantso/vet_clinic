@@ -53,7 +53,7 @@ CREATE TABLE specializations(
 CREATE TABLE visits (
     id BIGSERIAL PRIMARY KEY,
     vet_id INTEGER REFERENCES vets(id),
-    animals_id INTEGER REFERENCES animals(id),
+    animal_id INTEGER REFERENCES animals(id),
     visit_date DATE,
-    UNIQUE (vet_id, animals_id, visit_date)
+    UNIQUE (vet_id, animal_id, visit_date)
 );
